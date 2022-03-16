@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kappa-frontend
+  title: Kappa Frontend
+  description: Dev Box
+  tags:
+    - 8-vcpu
+    - 32gb-ram
+    - 512gb-storage
+
+  annotations:
+    msft.dev/org-slug: contoso
+    msft.dev/project-slug: project-kappa
+    msft.dev/resource-type: dev-box
+spec:
+  type: dev-box
+  lifecycle: production
+  owner: colbyw_microsoft.com

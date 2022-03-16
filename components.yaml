@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: components
+  description: A collection of components
+spec:
+  targets:
+    - ./dev-boxes/alpha-frontend.yaml
+    - ./dev-boxes/alpha-testing.yaml
+    - ./dev-boxes/kappa-frontend.yaml
+    - ./dev-boxes/omega-frontend.yaml
+    - ./codespaces/alpha-main.yaml
+    - ./codespaces/kappa-main.yaml
+    - ./codespaces/omega-main.yaml
